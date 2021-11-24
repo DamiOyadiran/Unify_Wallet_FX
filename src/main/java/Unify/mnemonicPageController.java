@@ -14,6 +14,13 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.sql.SQLException;
 
+/*
+This class handles the mnemonic page. 
+The unlockAccount method receives the mnemonic phrase from the user and checks to see if it is accurate. 
+If it is, it unlocks the account and sends an alert. 
+If not, it tells the user to try again.
+*/
+
 public class mnemonicPageController {
 
     @FXML
